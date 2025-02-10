@@ -2,6 +2,6 @@
 int main() {
     float r;
     scanf("%f",,&r);
-    printf("%f",r*r*3.14);
+    printf("%.2f",r*r*3.14);
     return 0;
 }
