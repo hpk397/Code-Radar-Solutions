@@ -1,10 +1,8 @@
 #include <stdio.h>
 int main() {
-    char ch[80];
     int a , b , sum;
-    a=ch[1];
-    b=ch[2];
+    scanf("%d %d",&a,&b);
     sum=a+b;
-    printf("%d",sum);
+    printf("Sum: %d",sum);
     return 0;
 }
