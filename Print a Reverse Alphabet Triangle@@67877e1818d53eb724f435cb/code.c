@@ -1,11 +1,14 @@
 // Your code here...
 #include<stdio.h>
 int main(){
-    int n;
+    int n,a;
+    a=67;
     scanf("%d",&n);
     for(int i=0;i<n;i++){
-        for(int j=n-i;j>0;j--){
-            printf("%c ",67-n-i);
+        for(int j=1;j<=n;j++){
+            a=67;
+            printf("%c ",a);
+            a++;
         }
         printf("\n");
     }
