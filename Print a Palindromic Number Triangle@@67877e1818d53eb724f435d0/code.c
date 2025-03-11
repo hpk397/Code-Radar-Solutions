@@ -9,11 +9,11 @@ int main(){
         }
         for(int k=1;k<=i;k++){
             if (k<=(2*i-1) ){
-                printf("%d ",k);
+                printf("%d",k);
             }
             else{
                 for(int z=k;z>0;z--){
-                printf("%d ",z);}
+                printf("%d",z);}
             }
         }
         printf("\n");
