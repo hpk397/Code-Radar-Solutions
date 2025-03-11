@@ -8,7 +8,7 @@ int main(){
             printf(" ");
         }
         for(int k=0;k<i;k++){
-            if (k<=(2*n-1) ){
+            if (k<=(2*i-1) ){
                 printf("%d ",k);
             }
             else{
