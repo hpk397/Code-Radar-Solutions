@@ -8,13 +8,11 @@ int main(){
             printf(" ");
         }
         for(int k=1;k<=i;k++){
-            if (k<(2*i-1) ){
+            if (k<=(2*i-1) ){
                 printf("%d",k);
             }
-            else{
-                for(int z=k-1;z>0;z--){
+            for(int z=k-1;z>0;z--){
                 printf("%d",z);}
-            }
         }
         printf("\n");
     }
