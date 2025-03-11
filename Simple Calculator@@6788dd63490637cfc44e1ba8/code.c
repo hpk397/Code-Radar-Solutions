@@ -8,20 +8,20 @@ int main(){
 
     
     case '+':
-        printf("%d", a+b);
+        printf("%d", a+b);break;
     
     case '-':
-        printf("%d", a-b);
+        printf("%d", a-b);break;
     
     case '*':
-        printf("%d", a);
+        printf("%d", a);break;
     
     case '/':
     if(b!=0){
-        printf("%d", a/b);
+        printf("%d", a/b);break;
     }
     else{
-        printf("Error");
+        printf("Error");break;
     }
     default:
         printf("Error");
