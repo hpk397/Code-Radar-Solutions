@@ -10,7 +10,10 @@ int main(){
     else if(m==2){
         printf("28");
     }
-    else(m==4 ||m==6 ||m==9||m==11){
+    else if (m==4 ||m==6 ||m==9||m==11){
         printf("30");
+    }
+    else{
+        printf("Invalid");
     }
 }
