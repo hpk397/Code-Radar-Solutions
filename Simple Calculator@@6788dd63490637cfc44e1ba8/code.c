@@ -14,7 +14,7 @@ int main(){
         printf("%d", a-b);break;
     
     case '*':
-        printf("%d", a);break;
+        printf("%d", a*b);break;
     
     case '/':
     if(b!=0){
