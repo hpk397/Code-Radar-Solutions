@@ -7,18 +7,18 @@ int main(){
         for(int k=0;k<i;k++){
         if(i%2==0){
         if(k%2==0){
-            printf("1");
+            printf("1 ");
         }
         else{
-            printf("0");
+            printf("0 ");
         }
         }
         else{
             if(k%2==0){
-                printf("0");
+                printf("0 ");
             }
             else{
-                printf("1");
+                printf("1 ");
             }
         }
         }
