@@ -2,21 +2,19 @@
 #include<stdio.h>
 int main(){
     int n,a;
-    a=1; 
     scanf("%d",&n);
+    a=1;
     for(int i=0;i<n;i++){
         for(int k=0;k<i;k++){
-           if(a==1){
+        if(i%2==0){
             printf("%d ",a);
             a--;
-           }
-           else{
+        }
+        else{
             printf("%d ",a);
-            a++;
-           }
+        }
            
-           
-
-        }printf('\n');
+        }
+        printf('\n');
     }
 }
