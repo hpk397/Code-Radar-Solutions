@@ -1,4 +1,3 @@
-// Your code here...
 #include<stdio.h>
 int main(){
     int n;
@@ -7,13 +6,12 @@ int main(){
         for(int j=n-i;j>0;j--){
             printf(" ");
         }
-        for(int k=1;k<=2*i-1;k++){
+        for(int k=1;k<=i;k++){
         printf("%d",k);
         }
-        for(int z=n;z>0;z--){
+        for(int z=n-1;z>0;z--){
             printf("%d",z);
             }
-        
-        printf("\n");
+    printf("\n");
     }
 }
