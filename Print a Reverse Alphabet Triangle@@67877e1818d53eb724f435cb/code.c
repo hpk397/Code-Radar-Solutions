@@ -2,13 +2,12 @@
 #include<stdio.h>
 int main(){
     int n,a;
-    a=67;
     scanf("%d",&n);
-    for(int i=0;i<n;i++){
+    for(int i=0;i<n;i++){a=65;
         for(int j=n-i;j>0;j--){
-            a=65;
+             
             printf("%c ",a);
-            ++a;
+            a++:
         }
         printf("\n");
     }
