@@ -12,7 +12,8 @@ int main(){
                 printf("%d ",k);
             }
             else{
-                printf("%d ",k);
+                for(int z=k;z>0;z--){
+                printf("%d ",z);}
             }
         }
         printf("\n");
