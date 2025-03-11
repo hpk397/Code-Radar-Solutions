@@ -1,5 +1,5 @@
 // Your code here...
-i#include<stdio.h>
+#include<stdio.h>
 int main(){
     int n,a;
     scanf("%d",&n);
@@ -9,5 +9,5 @@ int main(){
             printf("%d",a);
             a++;
         }
-    }
+    }printf("\n");
 }
