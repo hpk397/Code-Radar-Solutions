@@ -7,5 +7,5 @@ int main(){
         scanf("%s",a);
         scanf("%s",b);
     }
-    printf("%s %s",a,b);
+    printf("%s%s",a,b);
 }
