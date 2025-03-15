@@ -1,5 +1,5 @@
 // Your code here...
-int findsortedSubarray(int arr[],int n){
+int findUnsortedSubarray(int arr[],int n){
     int c=0;
     for(int i=0;i<n;i++){
         
