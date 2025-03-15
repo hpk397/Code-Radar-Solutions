@@ -12,6 +12,6 @@ int main(){
 
     
     for(int i=0;i<14;i++){
-        printf("%d",b[i]);
+        printf("%c",b[i]);
     }
 }
