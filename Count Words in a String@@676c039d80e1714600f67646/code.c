@@ -6,7 +6,7 @@ int main(){
     }
     int c=1;
     while(str!='\0'){
-        if(str[]==' '){
+        if(str==' '){
             c++;
         }
         else{
