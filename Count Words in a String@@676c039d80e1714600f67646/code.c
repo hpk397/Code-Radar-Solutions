@@ -11,9 +11,7 @@ int main(){
         if(str[i]==' '){
             c++;
         }
-        else{
-            continue;
-        }
-    }}
+    }
+    }
     printf("%d",c);
 }
