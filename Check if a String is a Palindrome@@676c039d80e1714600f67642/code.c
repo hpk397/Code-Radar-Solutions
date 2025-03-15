@@ -9,9 +9,8 @@ int main(){
 
     }
     b=a;
-    for(int i=n/2;i>=0;i++){
-        b[i]=b[n-i-1];
-    }
+
+    
     for(int i=0;i<14;i++){
         printf("%d",b[i]);
     }
