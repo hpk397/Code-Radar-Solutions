@@ -1,17 +1,32 @@
 // Your code here...
 int findUnsortedSubarray(int arr[],int n){
-    int c=0;
-    for(int i=0;i<n;i++){
-            if(i!=n-1 && arr[i]>arr[i+1] ){
-                c++;
-            }
-            else if(i!=0 && arr[i]<arr[i-1]){
-                c++;
-            }
-            else{
-                continue;
-            }
+    // int c=0;
+    // for(int i=0;i<n;i++){
+    //         if(i!=n-1 && arr[i]>arr[i+1]  ){
+    //             c++;
+    //         }
+    //         else if(i!=0 && arr[i]<arr[i-1]){
+    //             c++;
+    //         }
+    //         else{
+    //             continue;
+    //         }
         
+    // }
+    // return c;
+    int m,n;
+    for(int i=0;i<n;i++){
+        while (arr[i]<arr[i+1]){
+            m=i+1;
+        }
     }
-    return c;
+    for(int i=n;i>0;i--){
+        while(arr[i]>arr[i-1]){
+            n=i;
+        }
+        else{
+            break;
+        }
+    }
+    return n-m;
 }
