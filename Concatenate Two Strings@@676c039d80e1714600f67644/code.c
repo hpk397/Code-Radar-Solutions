@@ -1,5 +1,5 @@
 // Your code here...
-@innclude<stdio.h>
+#include<stdio.h>
 int main(){
     char a[10];
     char b[10];
