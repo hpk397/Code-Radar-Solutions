@@ -7,5 +7,6 @@ int main(){
         scanf("%s",a);
         scanf("%s",b);
     } 
+    char c[200];
     printf("%s%s",a,b);
 }
