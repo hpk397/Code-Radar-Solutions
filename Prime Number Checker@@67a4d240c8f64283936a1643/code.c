@@ -1,7 +1,7 @@
 // Your code here...
 #include<stdio.h>
 int isPrime(int num){
-    int a=1;
+    int a=0;
     if(num==1){
         a=0;
         return a;
@@ -13,6 +13,7 @@ int isPrime(int num){
             break;
             
         }
+
         
     }
     return a;
