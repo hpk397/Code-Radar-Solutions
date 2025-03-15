@@ -11,7 +11,7 @@ int main(){
     scanf("%c",&a[2]);
     int c=0;
     for(int i=0;i<20;i++){
-        if(ch[i]==a){
+        if(ch[i]==a[i]){
             c++;
         }
     }
