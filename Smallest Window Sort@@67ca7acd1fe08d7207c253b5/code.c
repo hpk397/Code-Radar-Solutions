@@ -6,6 +6,9 @@ int findUnsortedSubarray(int arr[],int n){
             if(arr[i]>arr[i+1]){
                 c++;
             }
+            else{
+                continue;
+            }
         
     }
     return c;
