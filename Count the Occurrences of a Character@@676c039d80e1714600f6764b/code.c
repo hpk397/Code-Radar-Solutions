@@ -3,7 +3,7 @@
 int main(){
     char ch[10];
     for(int i=0;i<10;i++){
-        scanf("%s",ch);
+        scanf("%c",&ch[i]);
 
     }
     char a;
