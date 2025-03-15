@@ -5,7 +5,7 @@ int main(){
         scanf("%s",&str[i]);
     }
     int c=1;
-    while(str[]!='\0'){
+    while(str!='\0'){
         if(str[]==' '){
             c++;
         }
