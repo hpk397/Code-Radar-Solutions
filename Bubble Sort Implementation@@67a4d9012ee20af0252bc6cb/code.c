@@ -10,9 +10,9 @@ void bubbleSort(int arr[],int n){
                 
             }
         }            
-        // brr[i]=a;
-        // arr[i]=brr[i];
-        // a=arr[i];
+        for(int i=0;i<n;i++){
+            arr[i]=brr[i];
+        }
     }
 } 
 void printArray(int arr[],int n){
