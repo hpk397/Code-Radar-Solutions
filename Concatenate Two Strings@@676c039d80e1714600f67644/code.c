@@ -4,10 +4,10 @@ int main(){
     char a[10];
     char b[10];
     for(int i=0;i<10;i++){
-        scanf("%c",&a[i]);
+        scanf("%s",a);
     }
     for(int i=0;i<10;i++){
-        scanf("%c",&b[i]);
+        scanf("%s",b);
     }
     printf("%s%s",a,b);
 }
