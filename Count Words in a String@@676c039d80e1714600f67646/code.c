@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main(){
-    char str[100];
-    for(int i=0;i<100;i++){
-        scanf("%s",str[i]);
+    char str[20];
+    for(int i=0;i<20;i++){
+        scanf("%s",str);
     }
     int c=0;
-    for(int i=0;i<100;i++){
+    for(int i=0;i<20;i++){
         if(str[i]==" "){
             c++;
         }
