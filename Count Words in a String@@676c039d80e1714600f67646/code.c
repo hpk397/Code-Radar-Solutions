@@ -5,8 +5,8 @@ int main(){
         scanf("%s",&str[i]);
     }
     int c=1;
-    for(int i=0;i<20;i++){
-        if(str[i]==' '){
+    while(str[]!='\0'){
+        if(str[]==' '){
             c++;
         }
         else{
