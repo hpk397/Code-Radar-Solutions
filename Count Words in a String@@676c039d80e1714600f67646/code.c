@@ -14,6 +14,6 @@ int main(){
         else{
             continue;
         }
-    }
+    }}
     printf("%d",c);
 }
