@@ -8,5 +8,7 @@ int main(){
         scanf("%s",b);
     } 
     char c[200];
-    printf("%s%s",a,b);
+    c[0]=a[0];
+    c[1]=a[1];
+    printf("%s",c);
 }
