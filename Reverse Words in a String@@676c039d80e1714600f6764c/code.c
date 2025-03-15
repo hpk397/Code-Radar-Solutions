@@ -4,9 +4,10 @@
 int main(){
     char a[100];
     for(int i=0;i<100;i++){
-        scanf("%s",a);
+        scanf("%c",&a[i]);
     }
-for(int i=n-1;i>=0;i--){
-    printf("%c",a[i]);
-}
+for(int i=0;i<n;i++){
+for(int j=n-1;j>0;j--){
+    printf("%s ",a[j]);
+}}
 }
