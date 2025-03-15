@@ -6,5 +6,6 @@ int main(){
     for(int i=0;i<90;i++){
         scanf("%c",&s[i]);
     }
-printf("%d",strlen(s));
+    int c=strlen(s);
+printf("%d",c);
 }
