@@ -7,7 +7,7 @@ int main(){
         scanf("%s",name);
     }
     for(int i=0;i<60;i++){
-        if(name[i]=='a' || name[i]=='e' || name[i]=='i' ||name[i]=='o' || name[i]=='u'){
+        if(name[i]=='a' || name[i]=='e' || name[i]=='i' ||name[i]=='o' || name[i]=='u' || name[i]=='A' || name[i]=='E' || name[i]=='I' ||name[i]=='O' || name[i]=='U'){
             c++;
         }
     }
