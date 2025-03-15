@@ -6,9 +6,10 @@ int main(){
         scanf("%c",&ch[i]);
 
     }
-    char a;
+    char a[2];
+    
+    scanf("%c",&a[2]);
     int c=0;
-    scanf("%c",&a);
     for(int i=0;i<20;i++){
         if(ch[i]==a){
             c++;
