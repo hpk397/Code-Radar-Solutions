@@ -1,5 +1,5 @@
 // Your code here...
-#incude<stdio.h>
+#include<stdio.h>
 int main(){
     char a[10];
     for(int i=0;i<10;i++){
