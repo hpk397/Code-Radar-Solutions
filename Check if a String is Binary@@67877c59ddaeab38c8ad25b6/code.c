@@ -7,7 +7,7 @@ int main(){
         scanf("%s",s);
     }
     for(int i=0;i<15;i++){
-        if(s[i]!='1' || s[i]!='0'){
+        if(s[i]!=1 || s[i]!=2){
             a=1;
             break;
         }
