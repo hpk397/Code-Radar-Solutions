@@ -4,7 +4,7 @@ int main(){
     char ch[30],ch2[30],ch3[30];
     int count=0;
     for(int i=0;i<30;i++){
-        scanf("%d",ch);
+        scanf("%s",ch);
     }
     for(int i=0;ch[i]!='\0';i++){
         count++;
