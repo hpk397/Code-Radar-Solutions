@@ -6,11 +6,10 @@ int main(){
     for(int i=0;i<15;i++){
         scanf("%s",s);
     }
-    for(int i=0;i<15;i++){
-        if(s[i]=='1' || s[i]=='0'){
-            a=0;
-         }
-        
+    while(s){
+        if(s=='0' || s=='1'){
+            continue;
+        }
         else{
             a=1;
             break;
