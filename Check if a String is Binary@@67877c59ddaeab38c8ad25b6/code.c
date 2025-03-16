@@ -9,7 +9,7 @@ int main(){
     for(int i=0;i<15;i++){
         if(s[i]!='1' && s[i]!='0'){
             a=1;
-            break;
+            a++;
          }
         
          
