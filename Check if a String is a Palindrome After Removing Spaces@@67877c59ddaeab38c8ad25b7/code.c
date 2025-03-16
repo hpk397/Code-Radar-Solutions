@@ -32,7 +32,7 @@ int main(){
     }
     else{ z=0;
     }
-if(z=0){
+if(z==0){
     printf("Yes");
 }
 else{
