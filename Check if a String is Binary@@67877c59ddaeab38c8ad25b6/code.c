@@ -7,7 +7,13 @@ int main(){
         scanf("%s",s);
     }
     for(int i=0;i<15;i++){
-        if(s[i]!='1' || s[i]!='0'){
+        if(s[i]=='1'){
+            a=0;
+        }
+        else if(s[i]=='0'){
+            a=0;
+        }
+        else{
             a=1;
             break;
         }
