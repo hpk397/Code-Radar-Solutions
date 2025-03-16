@@ -7,12 +7,12 @@ int main(){
         scanf("%c",&s[i]);
     }
     for(int i=0;i<15;i++){
-        if(s[i]!=1 || s[i]!=0){
+        if(s[i]!='1' || s[i]!='0'){
             a=1;
             break;
         }
     
-    }if(a==0) printf("Yes");
-    else{printf("No");
     }
+    if(a==0){ printf("Yes");}
+    else{printf("No");}
 }
