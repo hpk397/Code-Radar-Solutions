@@ -31,6 +31,6 @@ int main(){
     //     printf("No");
     // }
     // printf("%s",ch2);
-    // printf("%s",ch3);
+    printf("%s",ch3);
 
 }
