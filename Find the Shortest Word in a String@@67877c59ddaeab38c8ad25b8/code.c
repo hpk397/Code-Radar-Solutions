@@ -3,9 +3,8 @@
 #include<string.h>
 int main(){
     char ch[50];
-    for(int i=0;i<50;i++){
-        scanf("%s",ch);
-    }
+        fgets(ch, 50, stdin);  // Read a whole line of input
+
     int c=1;
     int a=0;
     for(int i=0;ch[i]!='\0';i++){
