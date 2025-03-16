@@ -19,5 +19,5 @@ int main(){
         }
     }
     if(a==0){ printf("Yes");}
-    else{ printf("Yes");}
+    else{ printf("No");}
 }
