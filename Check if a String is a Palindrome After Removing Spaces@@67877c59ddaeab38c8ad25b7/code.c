@@ -35,11 +35,11 @@ ch3[b] = '\0';
     }
     else{ z=0;
     }
-if(z==0){
+
+    }if(z==0){
     printf("Yes");
 }
 else{
     printf("No");
 }
-    }
 }
