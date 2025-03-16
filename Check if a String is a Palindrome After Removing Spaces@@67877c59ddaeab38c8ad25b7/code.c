@@ -1,5 +1,6 @@
 // Your code here...
 #include<stdio.h>
+#include<ctype.h>
 int main(){
     char ch[30],ch2[30],ch3[30];
     int count=0;
