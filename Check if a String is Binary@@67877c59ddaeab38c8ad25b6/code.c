@@ -11,8 +11,8 @@ int main(){
             a=1;
             break;
         }
-    if(a==0) printf("Yes");
+    
+    }if(a==0) printf("Yes");
     else{printf("No");
-    }
     }
 }
