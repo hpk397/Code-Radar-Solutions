@@ -13,14 +13,14 @@ int main(){
     int b=0;
     for(int i=count-1;i>=0;i--){
         if(ch[i]!=' '){
-            ch2[a]=ch[i];
+            ch2[a]=tolower(ch[i]);
             a++;
         }
 
     }
     for(int i=0;ch[i]!='\0';i++){
         if(ch[i]!=' '){
-            ch3[b]=ch[i];
+            ch3[b]=tolower(ch[i]);
             b++;
         }
     }
