@@ -9,14 +9,16 @@ int main(){
     for(int i=0;i<15;i++){
         if(s[i]=='1'){
             a=0;
+             break; 
         }
         else if(s[i]=='0'){
             a=0;
+            break;
         }
-        // else{
-        //     a=1;
-        //     break;
-        // }
+        else{
+            a=1;
+            break;
+        }
     }
     if(a==0){ printf("Yes");}
     else{ printf("No");}
