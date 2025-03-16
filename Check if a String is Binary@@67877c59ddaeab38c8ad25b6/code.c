@@ -18,6 +18,6 @@ int main(){
             break;
         }
     }
-    if(a=0){ printf("Yes");}
+    if(a==0){ printf("Yes");}
     else{ printf("No");}
 }
