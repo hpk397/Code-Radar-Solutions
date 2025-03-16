@@ -24,12 +24,13 @@ int main(){
             b++;
         }
     }
-    if(ch2==ch3){
-        printf("Yes");
-    }
-    else{
-        printf("No");
-    }
-    
+    // if(ch2==ch3){
+    //     printf("Yes");
+    // }
+    // else{
+    //     printf("No");
+    // }
+    printf("%s",ch2);
+    printf("%s",ch3);
 
 }
