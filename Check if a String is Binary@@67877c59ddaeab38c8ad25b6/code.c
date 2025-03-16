@@ -4,7 +4,7 @@ int main(){
     char s[15];
     int a=0;
     for(int i=0;i<15;i++){
-        scanf("%s",s);
+        scanf("%c",&s[i]);
     }
     for(int i=0;i<15;i++){
         if(s[i]!=1 || s[i]!=2){
