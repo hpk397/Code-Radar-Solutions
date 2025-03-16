@@ -5,7 +5,7 @@ int main(){
     for(int i=0;i<15;i++){
         scanf("%s",s);
     }
-    for(int i=0;i<15;i++){
+    for(int i=0;s[i]!='\0';i++){
         if(s[i]!='1' && s[i]!='0' && s[i]!=' '){
             
             a++;
