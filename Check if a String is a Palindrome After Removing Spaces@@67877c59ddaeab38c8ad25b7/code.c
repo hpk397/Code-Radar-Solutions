@@ -24,6 +24,9 @@ int main(){
             b++;
         }
     }
+    ch2[a] = '\0';
+ch3[b] = '\0';
+
     int z=0;
     for(int i=0;ch2[i]!='\0';i++){
     if(ch2[i]!=ch3[i]){
