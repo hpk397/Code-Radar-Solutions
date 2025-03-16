@@ -13,10 +13,10 @@ int main(){
         else if(s[i]=='0'){
             a=0;
         }
-        else{
-            a=1;
-            break;
-        }
+        // else{
+        //     a=1;
+        //     break;
+        // }
     }
     if(a==0){ printf("Yes");}
     else{ printf("No");}
