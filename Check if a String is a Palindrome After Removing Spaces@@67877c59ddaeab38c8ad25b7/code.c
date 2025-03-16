@@ -24,13 +24,19 @@ int main(){
             b++;
         }
     }
-    if(ch2==ch3){
-        printf("Yes");
+    int z=0;
+    for(int i=0;ch2[i]!='\0';i++){
+    if(ch2[i]!=ch3[i]){
+        z=1;
+        break;
     }
-    else{
-        printf("No");
+    else{ z=0;
     }
-    // printf("%s",ch2);
-    printf("%s",ch3);
-
+if(z=0){
+    printf("Yes");
+}
+else{
+    printf("No");
+}
+    }
 }
