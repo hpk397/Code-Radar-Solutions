@@ -13,8 +13,9 @@ int main(){
     scanf("%d",&k);
     k=k%n;
     char ch2[n];
-    for(int i=0;i<k;i++){
-        ch2[n-i]=ch[i];
+    ch2=ch;
+    for(int i=k;i=<n;i++){
+        ch2[i]=ch[n-i];
     }
     for(int i=0;i<n;i++){
         printf("%d ",ch2[i]);
