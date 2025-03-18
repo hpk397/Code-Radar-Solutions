@@ -17,6 +17,6 @@ int main(){
         ch2[n-i]=ch[i];
     }
     for(int i=0;i<n;i++){
-        printf("%d ",ch[i]);
+        printf("%d ",ch2[i]);
     }
 }
