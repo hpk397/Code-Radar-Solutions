@@ -13,7 +13,7 @@ int main(){
     scanf("%d",&k);
     k=k%n;
     char ch2[n];
-    ch2=ch;
+    ch2==ch;
     for(int i=k;i=<n;i++){
         ch2[i]=ch[n-i];
     }
