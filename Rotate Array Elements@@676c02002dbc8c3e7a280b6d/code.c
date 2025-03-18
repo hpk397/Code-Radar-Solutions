@@ -14,7 +14,7 @@ int main(){
     k=k%n;
     char ch2[n];
     ch2==ch;
-    for(int i=k;i=<n;i++){
+    for(int i=k;i<=n;i++){
         ch2[i]=ch[n-i];
     }
     for(int i=0;i<n;i++){
