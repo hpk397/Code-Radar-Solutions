@@ -2,23 +2,16 @@
 // Online C compiler to run C program online
 #include <stdio.h>
 int fibonacciSeries(int n){
+    int a=0;
     if(n==1){
-        return 0;
+        a=0;
+        printf("%d ",a);
     }
     else if(n==2 || n==3){
-        return 1;
+        a=1;
+        printf("%d ",a);
     }
     else{
-        return fibonacciSeries(n-1)+ fibonacciSeries(n-2);
+        printf("%d," fibonacciSeries(n-1)+ fibonacciSeries(n-2));
     }}
 
-int main() {
-    int n;
-    scanf("%d",&n);
-    if (n<0){
-        printf("Invalid input\n");
-    }
-    fibonacciSeries(n);
-
-    return 0;
-}
