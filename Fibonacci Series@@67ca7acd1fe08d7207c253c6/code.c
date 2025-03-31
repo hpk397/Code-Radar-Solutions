@@ -1,7 +1,7 @@
 // Your code here...
 // Online C compiler to run C program online
 #include <stdio.h>
-int fibo(int n){
+int fibonacciSeries(int n){
     if(n==1){
         return 0;
     }
@@ -9,7 +9,7 @@ int fibo(int n){
         return 1;
     }
     else{
-        return fibo(n-1)+ fibo(n-2);
+        return fibonacciSeries(n-1)+ fibonacciSeries(n-2);
     }
 }
 int main() {
