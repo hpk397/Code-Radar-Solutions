@@ -4,10 +4,12 @@
 int  fibonacciSeries(int n){
     int a=0;
     if(n==1){
-        return fibonacciSeries(n)=0;
+        fibonacciSeries(n)=0;
+        return fibonacciSeries(n);
     }
     else if(n==2 || n==3){
-        return fibonacciSeries(n)=1;
+        fibonacciSeries(n)=1;
+        return fibonacciSeries(n);
     }
     else{
         return  fibonacciSeries(n-1)+ fibonacciSeries(n-2);
