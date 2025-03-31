@@ -11,6 +11,9 @@ void  fibonacciSeries(int n){
     }
     if(n==2){
     printf("%d ",b);}
+    if(n!=1 && n!=2){
+        printf("%d %d ",a,b);
+    }
     while(z>0){
     
     
