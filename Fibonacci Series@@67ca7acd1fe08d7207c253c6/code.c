@@ -6,7 +6,7 @@ void  fibonacciSeries(int n){
     int b=1;
     int c;
     int z=n;
-    while(n!=0){
+    while(n>0){
     c=a+b;
     printf("%d ",c);
     a=b;
