@@ -4,17 +4,13 @@
 int  fibonacciSeries(int n){
     int a=0;
     if(n==1){
-        a=0;
-        printf("%d ",a);
+        return fibonacciSeries(n)=0;
     }
     else if(n==2 || n==3){
-        a=1;
-        printf("%d ",a);
+        return fibonacciSeries(n)=1;
     }
     else{
-        a= fibonacciSeries(n-1)+ fibonacciSeries(n-2);
-        printf("%d ",a);
-
+        return  fibonacciSeries(n-1)+ fibonacciSeries(n-2);
     }
-    return a;}
+    }
 
