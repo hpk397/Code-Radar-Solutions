@@ -12,6 +12,6 @@ int fibonacciSeries(int n){
         printf("%d ",a);
     }
     else{
-        printf("%d," fibonacciSeries(n-1)+ fibonacciSeries(n-2));
+        printf("%d ", fibonacciSeries(n-1)+ fibonacciSeries(n-2));
     }}
 
