@@ -9,11 +9,10 @@ void  fibonacciSeries(int n){
     if(n==1){
         printf("%d ",a);
     }
-    if(n==2){
-    printf("%d ",b);}
-    if(n!=1 && n!=2){
+
+    if(n!=1 ){
         printf("%d %d ",a,b);
-    }
+    
     while(z>0){
     
     
