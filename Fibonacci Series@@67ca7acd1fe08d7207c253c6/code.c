@@ -1,7 +1,7 @@
 // Your code here...
 // Online C compiler to run C program online
 #include <stdio.h>
-void fibonacciSeries(int n){
+int fibonacciSeries(int n){
     if(n==1){
         return 0;
     }
