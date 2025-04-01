@@ -14,7 +14,7 @@ int main(){
         printf("NO");
         break;
     }
-    else if(a[i]<a[i+1] && a[i]<a[i-1]){
+    else if(a[i]<a[i+1] && a[i]>a[i-1]){
         printf("NO");
         break;
     }
