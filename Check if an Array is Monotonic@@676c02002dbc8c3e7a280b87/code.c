@@ -2,6 +2,7 @@
 #include<stdio.h>
 int main(){
     int n;
+    int a=0;
     
     scanf("%d",&n);
     int a[n];
@@ -18,7 +19,10 @@ int main(){
         break;
     }
 else{
-    printf("Yes");
+    a=1;
 }
     }
+if(a==1){
+    printf("YES");
+}
 }
