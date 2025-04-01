@@ -4,8 +4,12 @@
 // Main function to run the program
 int main() 
 { 
-    int arr[] = {10, 30, 10, 20, 10, 20, 30, 10}; 
-    int n = sizeof(arr)/sizeof(arr[0]); 
+    int n;
+    scanf("%d",&n);
+    int arr[n]; 
+    for(int i=0;i<n;i++){
+        scanf("%d",&arr[i]);
+    }
 
     int visited[n];
  
