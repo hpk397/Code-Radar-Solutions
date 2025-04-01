@@ -1,32 +1,38 @@
-// Your code here...
-#include<stdio.h>
-
-// Main function to run the program
-int main() 
-{ 
-    int n;
-    scanf("%d",&n);
-    int arr[n]; 
-    for(int i=0;i<n;i++){
-        scanf("%d",&arr[i]);
-    }
-
-    int visited[n];
- 
-    for(int i=0; i<n; i++){
-
-       if(visited[i]==0){
-          int count = 1;
-          for(int j=i+1; j<n; j++){
-             if(arr[i]==arr[j]){
-                count++;
-                visited[j]=1;
-             }
-          }
-
-          printf("%d %d \n", arr[i], count);
-       }
-   }
-
-   return 0; 
+ #include <stdio.h>
+int main()
+{
+	int  i, j, Count, n;	
+ 	scanf("%d", &n);               //Declare size array	
+    int a[n], Freq[n];            //Declare two arrays
+ 	for (i = 0; i < n; i++)       //Initialize both the arrays
+	{
+    	    scanf("%d", &a[i]);
+    	    Freq[i] = -1;         /* Initially initialize frequencies to -1 */
+   	}      
+   //Count the frequency of each element
+	for (i = 0; i < n; i++)
+	{
+		Count = 1;
+		for(j = i + 1; j < n; j++)
+		{
+    		if(a[i] == a[j])    //Check for duplicate elements
+    		{
+    			Count++;
+    			Freq[j] = 0;    /* Make sure not to count frequency of same element again */
+    		}
+    	}
+    	if(Freq[i] != 0)        /* If frequency of current element is not counted */
+    	{
+    		Freq[i] = Count;
+		}
+	}
+    /* Print frequency of each element*/
+  	for (i = 0; i < n; i++)
+  	{
+  		if(Freq[i] != 0)        
+  		{
+  			printf("%d %d\n", a[i], Freq[i]);
+		}		
+  	}	     
+ 	return 0;
 }
