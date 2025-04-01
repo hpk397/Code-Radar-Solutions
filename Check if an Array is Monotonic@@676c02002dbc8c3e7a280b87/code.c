@@ -18,11 +18,9 @@ int main(){
         printf("NO");
         break;
     }
-    else{
-    z=1;
+     
     }
-    }
-if(z==1){
+ 
     printf("YES");
-}
+ 
 }
