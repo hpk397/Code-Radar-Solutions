@@ -16,9 +16,7 @@ int main(){
         if(str[i]==' ' && str[i-1] != ' '){
             c++;
         }
-        else if(str[i]=='\0'){
-            c++;
-        }
+         
     }
     printf("%d",c);
 }
