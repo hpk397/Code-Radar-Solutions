@@ -7,7 +7,7 @@ int main(){
     for(int i=0;i<50;i++){
     scanf("%c",&str[i] );}
     for(int i=0;i<50;i++){
-        if (str[i]==' '){
+        if (str[i]!=' '){
             start=i;
             break;
         }
