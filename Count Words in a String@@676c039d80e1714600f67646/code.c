@@ -7,13 +7,13 @@ int main(){
     for(int i=0;i<50;i++){
     scanf("%c",&str[i] );}
     for(int i=0;i<50;i++){
-        if (str[i]!=' '){
+        if (str[i]!=' ' ){
             start=i;
             break;
         }
     }
     for(int i=start+1;i<50;i++){
-        if(str[i]==' '){
+        if(str[i]==' ' && str[i-1] != ' '){
             c++;
         }
     }
