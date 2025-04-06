@@ -12,6 +12,11 @@ int main(){
             break;
         }
     }
+        if (str[0] == '\0') {
+        printf("%d", c);
+        return 0;
+    }
+    c=1;
     for(int i=start+1;i<50;i++){
         if(str[i]==' ' && str[i-1] != ' '){
             c++;
