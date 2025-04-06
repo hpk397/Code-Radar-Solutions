@@ -35,7 +35,7 @@ str[strcspn(str, "\n")] = '\0';
         //     start=strlen(str)-1;
         // }
     }
-    if (str[start] == '\0') {
+if (str[start] == '\0') {
         printf("%d", 0);
         return 0;
     }
