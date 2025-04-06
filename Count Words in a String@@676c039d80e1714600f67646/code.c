@@ -2,14 +2,11 @@
 #include<string.h>
 int main(){
     char str[200];
-    int c=1;
+    int c=0;
     
-        scanf("%s",&str );
-        
-    for(int i=0;i<strlen(str);i++){
-        if(str[i]== ' ' ){
-            c++;
-        }
+    scanf("%s",&str );
+    while(str!='\0'){
+        c++;
     }
     printf("%d",c);
 }
