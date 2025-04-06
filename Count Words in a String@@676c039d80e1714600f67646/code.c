@@ -11,6 +11,10 @@ int main(){
             start=i;
             break;
         }
+        if(i=strlen(str ) && str[i]==' '){
+            start=i;
+        }
+
         if (start == strlen(str)-1) {
         printf("%d", c);
         return 0;
