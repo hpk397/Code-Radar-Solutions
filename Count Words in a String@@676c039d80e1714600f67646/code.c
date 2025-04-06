@@ -5,7 +5,7 @@ int main(){
     int c=0;
     int start=0;
     for(int i=0;i<50;i++){
-    scanf("%c",&str[i] );}
+    scanf("%s",str[i] );}
 
     for(int i=0;i<strlen(str);i++){
         if (str[i]!=' ' ){
