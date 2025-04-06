@@ -12,7 +12,7 @@ int main(){
             start=i;
             break;
         }
-        else if(i=strlen(str ) -1 && str[i]==' '){
+          if(i=strlen(str ) -1 && str[i]==' '){
             start=strlen(str)-1;
         }
 
