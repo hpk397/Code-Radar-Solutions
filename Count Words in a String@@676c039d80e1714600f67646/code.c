@@ -16,9 +16,11 @@ int main(){
         //     start=strlen(str)-1;
         // }
     }
-        // if (start == strlen(str)-1) {
-        // printf("%d", c);
-        // } 
+    if (str[start] == '\0') {
+        printf("%d", 0);
+        return 0;
+    }
+
     c=1;
     for(int i=start+1;i<50;i++){
         if(str[i]==' ' && str[i-1] != ' '){
