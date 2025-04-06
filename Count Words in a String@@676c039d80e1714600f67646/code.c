@@ -6,12 +6,13 @@ int main(){
     int start=0;
     for(int i=0;i<50;i++){
     scanf("%c",&str[i] );}
+
     for(int i=0;i<strlen(str);i++){
         if (str[i]!=' ' ){
             start=i;
             break;
         }
-        if(i=strlen(str ) -1 && str[i]==' '){
+        else if(i=strlen(str ) -1 && str[i]==' '){
             start=strlen(str)-1;
         }
 
