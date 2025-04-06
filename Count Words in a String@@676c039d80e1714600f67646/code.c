@@ -19,7 +19,7 @@ int main(){
         // if (start == strlen(str)-1) {
         // printf("%d", c);
         
-    }
+    
         
     }
     c=1;
