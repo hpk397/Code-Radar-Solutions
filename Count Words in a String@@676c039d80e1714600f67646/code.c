@@ -10,7 +10,8 @@ int main(){
         if (str[i]!=' ' ){
             start=i;
             break;
-        }if (str[0] == '\0') {
+        }
+        if (start == strlen(str)-1) {
         printf("%d", c);
         return 0;
     }
