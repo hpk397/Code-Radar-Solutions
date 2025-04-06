@@ -14,11 +14,10 @@ int main(){
         }
         else if(i=strlen(str ) -1 && str[i]==' '){
             start=strlen(str)-1;
+             printf("%d", c);
         }
 
-        if (start == strlen(str)-1) {
-        printf("%d", c);
-        return 0;
+        
     }
         
     }
