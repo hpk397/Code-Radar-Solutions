@@ -12,8 +12,11 @@ int main(){
             break;
         }
     }
-    for(int i=start;i<50;i++){
+    for(int i=start+1;i<50;i++){
         if(str[i]==' ' && str[i-1] != ' '){
+            c++;
+        }
+        else if(str[i]=='\0'){
             c++;
         }
     }
