@@ -10,11 +10,11 @@ int main(){
         if (str[i]!=' ' ){
             start=i;
             break;
-        }
-    }
-        if (str[0] == '\0') {
+        }if (str[0] == '\0') {
         printf("%d", c);
         return 0;
+    }
+        
     }
     c=1;
     for(int i=start+1;i<50;i++){
