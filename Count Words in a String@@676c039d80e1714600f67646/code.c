@@ -11,8 +11,8 @@ int main(){
             start=i;
             break;
         }
-        if(i=strlen(str ) && str[i]==' '){
-            start=i;
+        if(i=strlen(str ) -1 && str[i]==' '){
+            start=strlen(str)-1;
         }
 
         if (start == strlen(str)-1) {
@@ -28,5 +28,6 @@ int main(){
         }
           
     }
-    printf("%d",c);
+    if(start != strlen(str)-1){
+    printf("%d",c);}
 }
