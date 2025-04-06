@@ -16,7 +16,9 @@ int main(){
         if(str[i]==' ' && str[i-1] != ' '){
             c++;
         }
-         
+         if (strlen(str) > 0 && str[0] != ' ' && str[0] != '\n') {
+        c++;  // Account for the first word
+    }
     }
     printf("%d",c);
 }
