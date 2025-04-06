@@ -1,10 +1,10 @@
 #include<stdio.h>
 #include<string.h>
 int main(){
-    char str[200];
+    char str[50];
     int c=0;
-    
-    scanf("%s",&str );
+    for(int i=0;i<50;i++){
+    scanf("%s",str );}
     while(str!='\0'){
         c++;
     }
